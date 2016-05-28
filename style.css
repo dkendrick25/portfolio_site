@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+#header, #footer{
+  color: white;
+}
+
+h4 {
+  margin-top: 8%;
+  margin-left: 60%;
+  color: #99999a;
+}
+
+#arrow-img {
+  margin-top: 2%;
+}
+body {
+  background-color: #111118;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  letter-spacing: .15em;
+}
+
+#square1 {
+  padding-top:35px;
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #A17CFF;
+}
+#square2 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #A17CFF;
+}
+#square3 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #A17CFF;
+}
+
+#square4 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #A17CFF;
+}
+
+#circle1 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #10DFAC;
+	border-radius: 50px;
+}
+#circle2 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #10DFAC;
+	border-radius: 50px;
+}
+#circle3 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #10DFAC;
+	border-radius: 50px;
+}
+#circle4 {
+  margin: 2%;
+  width: 100px;
+	height: 100px;
+	background: #10DFAC;
+	border-radius: 50px;
+}
+.triangle {
+  margin: 2%;
+  width: 0;
+	height: 0;
+	border-bottom: 25px solid transparent;
+	border-top: 25px solid transparent;
+	border-right: 50px solid #FF5736;
+}
+
+.image {
+  margin: 2%;
+}
+
+#shape-container {
+
+  height: 600px;
+}
