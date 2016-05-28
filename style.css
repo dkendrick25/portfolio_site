@@ -20,61 +20,22 @@ body {
   letter-spacing: .15em;
 }
 
-#square1 {
+.square {
   padding-top:35px;
   margin: 2%;
   width: 100px;
 	height: 100px;
 	background: #A17CFF;
 }
-#square2 {
+
+.circle {
   margin: 2%;
   width: 100px;
 	height: 100px;
-	background: #A17CFF;
-}
-#square3 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #A17CFF;
+	background: #10DFAC;
+	border-radius: 50px;
 }
 
-#square4 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #A17CFF;
-}
-
-#circle1 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #10DFAC;
-	border-radius: 50px;
-}
-#circle2 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #10DFAC;
-	border-radius: 50px;
-}
-#circle3 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #10DFAC;
-	border-radius: 50px;
-}
-#circle4 {
-  margin: 2%;
-  width: 100px;
-	height: 100px;
-	background: #10DFAC;
-	border-radius: 50px;
-}
 .triangle {
   margin: 2%;
   width: 0;
@@ -88,9 +49,8 @@ body {
   margin: 2%;
 }
 
-#shape-container {
-
-  height: 600px;
+.shape-container {
+  padding-top: 30%;
 }
 
 a {
