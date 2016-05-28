@@ -14,6 +14,11 @@ h4 {
 #arrow-img {
   margin-top: 2%;
 }
+button {
+  background-color: #111118;
+  margin: 0;
+    border: none;
+}
 body {
   background-color: #111118;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -27,6 +32,19 @@ body {
 	height: 100px;
 	background: #A17CFF;
 }
+#square1 {
+  transform: translate(100px) rotate(20deg);
+  transform-origin: 0 -250px;
+}
+#square2 {
+  transform: rotate(-40deg);
+}
+#square3 {
+  transform: rotate(20deg);
+}
+#square4 {
+  transform: rotate(-20deg);
+}
 
 .circle {
   margin: 2%;
@@ -38,13 +56,31 @@ body {
 
 .triangle {
   margin: 2%;
+  margin-left: 0;
   width: 0;
 	height: 0;
 	border-bottom: 25px solid transparent;
 	border-top: 25px solid transparent;
 	border-right: 50px solid #FF5736;
 }
-
+#triangle2 {
+  transform: rotate(-25deg);
+}
+#triangle3 {
+  transform: rotate(-50deg);
+}
+#triangle4 {
+  transform: rotate(80deg);
+}
+#octokitty {
+  transform: rotate(-20deg);
+}
+#twitter {
+    transform: rotate(20deg);
+}
+#in {
+  transform: rotate(-20deg);
+}
 .image {
   margin: 2%;
 }
