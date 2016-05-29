@@ -6,6 +6,7 @@
   <script src='jquery.js'></script>
   <script src='script.js'></script>
   <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap.min.js" rel="stylesheet">
   <link rel="stylesheet" href="animate.css" >
   <link rel="stylesheet" href="style.css">
 </head>
@@ -18,54 +19,61 @@
       <div id='weekly-picks' class="col-xs-6 col-md-4">
         <h4>weekly picks</h4>
       </div>
-      <div id='arrow-img' class='col-md-2'>
-        <button type="button" data-toggle="dropdown">
+      <div id='arrow-img' class='col-md-2 dropdown'>
+        <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="images/arrow.jpg" alt=""/>
+          <span class="caret"></span>
         </button>
+        <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li>Spotify</li>
+          <li>Podcast</li>
+          <li>Kindle</li>
+        </ul>
       </div>
     </div>
-    <div class='row shape-container animated slideInDown'>
+  </div>
+  <div class='row shape-container animated slideInDown'>
 
-      <div id='square1' class='col-xs-4 col-md-1 square'>
-        <a href='projects.html'>
-          <p id='project-text'>projects<p>
-          </a>
-        </div>
-        <div id='circle1' class='col-xs-4 col-md-1 circle'></div>
-        <div id='square2' class='col-xs-4 col-md-1 square'></div>
-        <div id='triangle1' class='col-xs-4 col-md-1 triangle'></div>
-        <div id='octokitty' class="col-xs-4 col-md-1 image">
-          <a href='https://github.com/dkendrick25'>
-            <img src="images/githubicon.png" alt="" />
-          </a>
-        </div>
-        <div id='circle2' class='col-xs-4 col-md-1 circle'></div>
-        <div id='triangle2' class='col-xs-4 col-md-1 triangle'></div>
-        <div id='square3' class='col-xs-4 col-md-1 square'></div>
-
-        <div id='triangle3' class='col-xs-4 col-md-1 triangle'></div>
-        <div id='square4' class='col-xs-4 col-md-1 square'></div>
-        <div id='circle3' class='col-xs-4 col-md-1 circle'></div>
-        <div id='twitter' class="col-xs-4 col-md-1 image">
-          <a href='https://twitter.com/dkendrick89'>
-            <img src="images/twittericon.jpg" alt="" />
-          </a>
-        </div>
-        <div id='triangle4' class='col-xs-4 col-md-1 triangle'></div>
-        <div id='circle4' class='col-xs-4 col-md-1 circle'></div>
-        <div id='in' class="col-xs-4 col-md-1 image">
-          <a href='https://www.linkedin.com/in/deeann-kendrick-29167189'>
-            <img src="images/linkedinicon.jpg" alt="" />
-          </a>
-        </div>
-        <div id='triangle5' class='col-xs-4 col-md-1 triangle'></div>
-
+    <div id='square1' class='col-xs-4 col-md-1 col-lg-2 square'>
+      <a href='projects.html'>
+        <p id='project-text'>projects<p>
+        </a>
       </div>
-      <div class='row'>
-        <div id='footer' class='col-md-12 text-right'>
-          <h1>&lt/></h1>
-        </div>
+      <div id='circle1' class='col-xs-4 col-md-1 col-lg-2 circle'></div>
+      <div id='square2' class='col-xs-4 col-md-1 col-lg-2 square'></div>
+      <div id='triangle1' class='col-xs-4 col-md-1 col-lg-2 triangle'></div>
+      <div id='octokitty' class="col-xs-4 col-md-1 col-lg-2 image">
+        <a href='https://github.com/dkendrick25'>
+          <img src="images/githubicon.png" alt="" />
+        </a>
+      </div>
+      <div id='circle2' class='col-xs-4 col-md-1 col-lg-2 circle'></div>
+      <div id='triangle2' class='col-xs-4 col-md-1 col-lg-2 triangle'></div>
+      <div id='square3' class='col-xs-4 col-md-1 col-lg-2 square'></div>
+
+      <div id='triangle3' class='col-xs-4 col-md-1 col-lg-2 triangle'></div>
+      <div id='square4' class='col-xs-4 col-md-1 col-lg-2 square'></div>
+      <div id='circle3' class='col-xs-4 col-md-1 col-lg-2 circle'></div>
+      <div id='twitter' class="col-xs-4 col-md-1 col-lg-2 image">
+        <a href='https://twitter.com/dkendrick89'>
+          <img src="images/twittericon.jpg" alt="" />
+        </a>
+      </div>
+      <div id='triangle4' class='col-xs-4 col-md-1 col-lg-2 triangle'></div>
+      <div id='circle4' class='col-xs-4 col-md-1 col-lg-2 circle'></div>
+      <div id='in' class="col-xs-4 col-md-1 col-lg-2 image">
+        <a href='https://www.linkedin.com/in/deeann-kendrick-29167189'>
+          <img src="images/linkedinicon.jpg" alt="" />
+        </a>
+      </div>
+      <div id='triangle5' class='col-xs-4 col-md-1 col-lg-2 triangle'></div>
+
+    </div>
+    <div class='row'>
+      <div id='footer' class='col-md-12 text-right'>
+        <h1>&lt/></h1>
       </div>
     </div>
-  </body>
-  </html>
+  </div>
+</body>
+</html>
